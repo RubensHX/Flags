@@ -1,0 +1,28 @@
+.denmark {
+  width: 37em;
+  height: 28em;
+  background-color: white;
+  position: relative;
+  left: 50px;
+}
+.denmark::before {
+  content: "";
+  position: absolute;
+  width: 12em;
+  height: 12em;
+  background-color: #c60c30;
+  box-shadow: 0em 16em 0em 0em #c60c30;
+}
+.denmark::after {
+  content: "";
+  position: absolute;
+  width: 21em;
+  height: 12em;
+  right: 0em;
+  background-color: #c60c30;
+  box-shadow: 0em 16em 0em 0em #c60c30;
+}
+body {
+  background-color: rgba(39, 39, 39, 0.68);
+  font-size: 10px;
+}

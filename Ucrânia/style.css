@@ -1,0 +1,13 @@
+body {
+  background-color: rgba(39, 39, 39, 0.68);
+  font-size: 1.5px;
+}
+
+.ukraine {
+  width: 300em;
+  height: 100em;
+  background-color: #005bbb;
+  box-shadow: 0em 100em 0em 0em #ffd500;
+  position: relative;
+  left: 50px;
+}
