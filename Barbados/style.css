@@ -1,3 +1,32 @@
 body {
   background-color: rgba(39, 39, 39, 0.68);
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.blueCol {
+    width: 10em;
+    height: 20em;
+    background-color: #00267F;
+}
+
+.yellowCol {
+    width: 10em;
+    height: 20em;
+    background-color: #FFC726;
+}
+
+.yellowCol > img {
+    padding: 6em 0 0 1.2em;
+    width: 8em;
+    height: 8em;
+}
+
+.blueCol2 {
+    width: 10em;
+    height: 20em;
+    background-color: #00267F;
+}
