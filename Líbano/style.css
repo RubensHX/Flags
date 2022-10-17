@@ -1,3 +1,32 @@
-body{
-    background-color:rgba(39, 39, 39, 0.68);
+body {
+  background-color: rgba(39, 39, 39, 0.68);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+    width: 60em;
+    height: 7.5em;
+    background-color: #ED1C24;
+}
+
+.white {
+    width: 60em;
+    height: 20em;
+    background-color: #FFFFFF;
+}
+
+.white > img {
+    padding: 1em 0 0 20em;
+    width: 16em;
+    height: 16em;
+}
+
+.red2 {
+    width: 60em;
+    height: 7.5em;
+    background-color: #ED1C24;
 }
